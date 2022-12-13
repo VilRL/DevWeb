@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+</head>
+
+<body>
+
+    <h1>Cadastro de conta</h1>
+
+    <form action="cadastro.js" method="post">
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" placeholder="Digite um email"/>
+        </div>
+
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" placeholder="Digite um usuario"/>
+        </div>
+
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="text" id="senha" placeholder="Digite uma senha"/>
+        </div>
+
+        <div>
+            <label for="senha-confirma">Re-digite Senha:</label>
+            <input type="text" id="senha-confirma" placeholder="Re-digite a senha"/>
+        </div>
+
+        <div>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" class="form-control"  id="Data-Nascimento" name="dia" />
+        </div>
+
+        <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+
+    </form>
+
+    <div>
+        <label>Possui uma conta? </label><a href="index.html">Entrar</a>
+    </div>
+    
+</body>
+
+</html>
